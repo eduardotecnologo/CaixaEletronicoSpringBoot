@@ -1,0 +1,12 @@
+zuul:
+  routes:
+    caixacore:
+      url: http://localhost:8081
+    caixacrud:
+      url: http://localhost:8082
+
+ribbon:
+  eureka:
+    enabled: false
+
+   
